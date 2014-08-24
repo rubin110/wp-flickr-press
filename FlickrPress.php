@@ -286,7 +286,7 @@ class FlickrPress {
 			$owner = $photos[$pathKey];
 		}
 
-		$url = "http://www.flickr.com/photos/$owner/$id";
+		$url = "https://www.flickr.com/photos/$owner/$id";
 		return $url;
 	}
 	
